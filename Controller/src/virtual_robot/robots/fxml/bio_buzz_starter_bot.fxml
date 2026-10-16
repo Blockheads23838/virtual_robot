@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Group xmlns="http://javafx.com/javafx/8" 
+       xmlns:fx="http://javafx.com/fxml/1" 
+       fx:controller="virtual_robot.robots.classes.BioBuzzStarterBot">
+    <children>
+
+        <!-- Chassis Outer Body (18" x 18" FTC standard frame) -->
+        <Rectangle x="-37.5" y="-37.5" width="75.0" height="75.0" fill="DARKGRAY" stroke="BLACK" strokeWidth="2.0" />
+        <Rectangle x="-28.0" y="-28.0" width="56.0" height="56.0" fill="BLACK" stroke="GRAY" strokeWidth="1.0" />
+
+        <!-- Left Drive Wheels -->
+        <Rectangle x="-41.0" y="-26.0" width="6.0" height="16.0" fill="BLACK" stroke="CYAN" strokeWidth="1.0" />
+        <Rectangle x="-41.0" y="10.0" width="6.0" height="16.0" fill="BLACK" stroke="CYAN" strokeWidth="1.0" />
+
+        <!-- Right Drive Wheels -->
+        <Rectangle x="35.0" y="-26.0" width="6.0" height="16.0" fill="BLACK" stroke="CYAN" strokeWidth="1.0" />
+        <Rectangle x="35.0" y="10.0" width="6.0" height="16.0" fill="BLACK" stroke="CYAN" strokeWidth="1.0" />
+
+        <!-- Front Intake Motor Roller ("intake") -->
+        <Rectangle x="-22.0" y="-36.0" width="44.0" height="7.0" fill="ORANGE" stroke="BLACK" strokeWidth="1.0" />
+
+        <!-- Left & Right Intake Servos ("left_intake_servo", "right_intake_servo") -->
+        <Circle centerX="-26.0" centerY="-32.5" radius="4.5" fill="GOLD" stroke="BLACK" strokeWidth="1.0" />
+        <Circle centerX="26.0" centerY="-32.5" radius="4.5" fill="GOLD" stroke="BLACK" strokeWidth="1.0" />
+
+        <!-- Launcher Flywheel Assembly ("launcher") -->
+        <Rectangle x="-10.0" y="5.0" width="20.0" height="18.0" fill="RED" stroke="BLACK" strokeWidth="1.0" />
+        <Circle centerX="0.0" centerY="14.0" radius="6.0" fill="BLACK" stroke="RED" strokeWidth="1.0" />
+
+        <!-- Windmill Servo ("windmill") -->
+        <Circle centerX="0.0" centerY="-10.0" radius="9.0" fill="TEAL" stroke="WHITE" strokeWidth="1.5" />
+
+        <!-- Forward Direction Indicator -->
+        <Circle centerX="0.0" centerY="-38.0" radius="4.0" fill="LIME" stroke="BLACK" strokeWidth="1.0" />
+
+    </children>
+</Group>
